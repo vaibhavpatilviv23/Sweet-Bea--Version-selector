@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    width: fit-content;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    width: auto;
+}
+
+/*only for smartphones in portrait mode */
+@media (min-width: 600px) and (max-width: 1199px) {
+    header {
+        font-size: 30px;
+        text-align: center;
+        color: rgba(69, 69, 226, 0.959);
+        background-color: rgb(233, 222, 222);
+        padding:9px;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    section {
+        background-color: rgb(187, 215, 233);
+        margin-top: 120px;
+        padding: 25px;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        font-weight: lighter;
+    }
+
+    button {
+        height: auto;
+        width: auto;
+        font-size: 40px;
+        padding: 20px;
+        border: 5px black solid;
+        border-radius: 10px;
+        background-color: rgb(134, 134, 206);
+        color: white;
+        margin: 20px 0px 20px 0px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    p {
+        font-size: 25px;
+        font-family: sans-serif;
+    }
+
+    .porimg {
+        height: 900px;
+        width: auto;
+        margin: 20px 0px 20px 0px;
+        border: 8px solid black;
+        border-radius: 10px;
+    }
+}
+
+/* only for smartphones in landscape mode*/
+@media only screen and (max-height: 575.98px) and (orientation: landscape) {
+    header {
+        font-size: 15px;
+        text-align: center;
+        color: rgba(69, 69, 226, 0.959);
+        background-color: rgb(233, 222, 222);
+        padding:7px;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    section {
+        background-color: rgb(187, 215, 233);
+        margin-top: 60px;
+        padding: 25px;
+    }
+
+    h1 {
+        font-weight: lighter;
+    }
+
+    button {
+        height: auto;
+        width: auto;
+        font-size: 30px;
+        padding: 12px;
+        border: 5px black solid;
+        border-radius: 10px;
+        background-color: rgb(134, 134, 206);
+        color: white;
+        margin: 15px 0px 15px 0px;
+    }
+
+    h2 {
+        font-size: 30px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    p {
+        font-size: 22px;
+        font-family: sans-serif;
+    }
+
+    .porimg {
+        height: 300px;
+        width: auto;
+        margin: 20px 0px 20px 0px;
+        border: 5px solid black;
+        border-radius: 10px;
+    }
+}
+
+/* iPad in portrait and landscape mode */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1180px) {
+    header {
+        font-size:20px;
+        text-align: center;
+        color: rgba(69, 69, 226, 0.959);
+        background-color: rgb(233, 222, 222);
+        padding:4px;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    section {
+        background-color: rgb(187, 215, 233);
+        margin-top: 100px;
+        padding: 18px;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        font-weight: lighter;
+    }
+
+    button {
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        padding: 12px;
+        border: 3px black solid;
+        border-radius: 7px;
+        background-color: rgb(134, 134, 206);
+        color: white;
+        margin: 12px 0px 12px 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+
+    .porimg {
+        height: 500px;
+        width: auto;
+        margin: 20px 0px 20px 0px;
+        border: 8px solid black;
+        border-radius: 10px;
+    }
+}
+
+/*Large devices only (laptops and deskops) */
+@media (min-width: 1200px) {
+    header {
+        font-size:20px;
+        text-align: center;
+        color: rgba(69, 69, 226, 0.959);
+        background-color: rgb(233, 222, 222);
+        padding:4px;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        font-family: 'Pacifico', cursive;
+        font-weight: lighter;
+    }
+
+    section {
+        background-color: rgb(187, 215, 233);
+        margin-top: 100px;
+        padding: 18px;
+        margin-bottom: 50px;
+    }
+
+    h1 {
+        font-weight: lighter;
+    }
+
+    button {
+        height: auto;
+        width: auto;
+        font-size: 20px;
+        padding: 12px;
+        border: 3px black solid;
+        border-radius: 7px;
+        background-color: rgb(134, 134, 206);
+        color: white;
+        margin: 12px 0px 12px 0px;
+    }
+
+    h2 {
+        font-size: 20px;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    p {
+        font-size: 18px;
+        font-family: sans-serif;
+    }
+
+    .porimg {
+        height: 500px;
+        width: auto;
+        margin: 20px 0px 20px 0px;
+        border: 8px solid black;
+        border-radius: 10px;
+    }
+}
